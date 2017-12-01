@@ -18,12 +18,8 @@ body {
 
 /*The following is from https://codepen.io/samnorton/pen/zBYMJG with small
  adjustments*/
-/*
-body {
-	line-height: 1.6;
 
-}
-*/
+
 ul {
   margin: 0;
   padding: 0;
@@ -85,7 +81,7 @@ a {
   .header{
     width: 80%;
     margin: 0 auto;
-    max-width: 1150px;
+    max-width: 100%;
   }
 }
 
@@ -109,14 +105,26 @@ a {
 
 /*end code*/
 
-.center {
+
+.FullFlex,
+.FullFlex-body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+}
+.title{
+  order: 0;
+  margin-top: .5em;
 }
 
+.pic{
+  order: 1;
+  align-items: center;
+  margin: auto;
+}
+
+.content{
+  order: 2;
+}
 
 .job,
 .name {

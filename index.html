@@ -9,9 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&text=Joshua%20Gertner%20Full-Stack%20Developer" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/scripts.js"></script>
   </head>
-  <body>
+  <body class="FullFlex">
     <header class="header">
       <a href="index.html" class="logo"><img src="img/code_logo.png" alt="Home"></a>
 
@@ -25,54 +24,59 @@
         </ul>
       </nav>
     </header>
+    <div class="FullFlex-body">
 
+      <main class="content">
 
-    <main>
-      <div class="center">
-        <div class="title">
-          <h1 class="name">Joshua Gertner</h1>
-          <p class="job"><em>Full-Stack Developer</em></p>
+        <h2 class="feature">Featured Projects</h2>
+        <div class="featured-container"><!--flex container-->
+          <div class="project">
+              <!--TODO on hover reveal of after
+               hover class that will contain project details-->
+            <div class="hoverer">
+              <img class="featured-pics" src="img/cliche.jpg" alt="cliche matrix pic">
+              <p class="project-name">Project 1</p>
+              <div class="address"><a href="www.fillinlater.com">www.standin.com</a></div>
+            </div>
+            <div class="after-hover">
+              <p>Description of project short list of tags of programming langueges used at bottom.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="hoverer">
+              <img class="featured-pics" src="img/html.jpg" alt="html pic">
+              <p class="project-name">Project 2</p>
+              <div class="address"><a href="www.fillinlater.com">www.standin.com</a></div>
+            </div>
+            <div class="after-hover">
+              <p>Description of project short list of tags of programming langueges used at bottom.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="hoverer">
+              <img class="featured-pics" src="img/key.jpg" alt="key pic">
+              <p class="project-name">Project 3</p>
+              <div class="address"><a href="www.fillinlater.com">www.standin.com</a></div>
+            </div>
+            <div class="after-hover">
+              <p>Description of project short list of tags of programming langueges used at bottom.</p>
+            </div>
+          </div>
         </div>
 
-        <div class="pic">  <img class="big-pic" src="img/binary_tunnel.jpg" alt="Binary Tunnel Picture"></div>
+      </main>
+
+      <div class="title">
+        <h1 class="name">Joshua Gertner</h1>
+        <p class="job"><em>Full-Stack Developer</em></p>
       </div>
-      <h2 class="feature">Featured Projects</h2>
-      <div class="featured-container"><!--flex container-->
-        <div class="project">
-            <!--TODO on hover reveal of after
-             hover class that will contain project details-->
-          <div class="hoverer">
-            <img class="featured-pics" src="img/cliche.jpg" alt="cliche matrix pic">
-            <p class="project-name">Project 1</p>
-            <div class="address"><a href="www.fillinlater.com">www.standin.com</a></div>
-          </div>
-          <div class="after-hover">
-            <p>Description of project short list of tags of programming langueges used at bottom.</p>
-          </div>
-        </div>
-        <div class="project">
-          <div class="hoverer">
-            <img class="featured-pics" src="img/html.jpg" alt="html pic">
-            <p class="project-name">Project 2</p>
-            <div class="address"><a href="www.fillinlater.com">www.standin.com</a></div>
-          </div>
-          <div class="after-hover">
-            <p>Description of project short list of tags of programming langueges used at bottom.</p>
-          </div>
-        </div>
-        <div class="project">
-          <div class="hoverer">
-            <img class="featured-pics" src="img/key.jpg" alt="key pic">
-            <p class="project-name">Project 3</p>
-            <div class="address"><a href="www.fillinlater.com">www.standin.com</a></div>
-          </div>
-          <div class="after-hover">
-            <p>Description of project short list of tags of programming langueges used at bottom.</p>
-          </div>
-        </div>
+
+      <div class="pic">
+        <img class="big-pic" src="img/binary_tunnel.jpg" alt="Binary Tunnel Picture">
       </div>
 
-    </main>
 
+
+  </div>
   </body>
 </html>
