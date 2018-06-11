@@ -111,9 +111,14 @@ a {
   display: flex;
   flex-direction: column;
 }
+
 .title{
-  order: 0;
   margin-top: .5em;
+  order: 0;
+}
+
+.titles {
+  text-align: center;
 }
 
 .pic{
