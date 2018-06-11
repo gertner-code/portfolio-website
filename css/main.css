@@ -188,6 +188,12 @@ main {
   max-height: 100%;
 }
 
+/* About page */
+.about {
+  margin: auto;
+  max-width: 60%;
+}
+
 
 @media screen and (min-width: 481px) {
   .featured-container{
