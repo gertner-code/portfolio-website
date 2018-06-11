@@ -125,8 +125,11 @@ a {
   order: 1;
   align-items: center;
   margin: auto;
+  max-width: 100%;
 }
-
+.mainpic {
+  max-width: 100%;
+}
 .content{
   order: 2;
 }
@@ -137,11 +140,6 @@ a {
   margin: 3px 0;
   font-family: 'Roboto' , sans-serif;
   text-align: center;
-}
-
-.big-pic {
-  padding: 15px 0;
-  max-width: 100%;
 }
 
 main {
@@ -195,7 +193,7 @@ main {
 }
 
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
   .featured-container{
     display: flex;
     flex-wrap: wrap;
